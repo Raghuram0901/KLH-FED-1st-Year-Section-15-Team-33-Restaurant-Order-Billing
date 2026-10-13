@@ -1,0 +1,17 @@
+
+public void displayMenu() {
+
+    // StringBuffer builds the menu text
+    StringBuffer menu = new StringBuffer();
+
+    menu.append("\n===== RESTAURANT MENU =====\n");
+
+    for (int i = 0; i < menuItems.size(); i++) {
+        menu.append(i + 1)
+            .append(". ")
+            .append(menuItems.get(i))
+            .append("\n");
+    }
+
+    System.out.println(menu);
+}
