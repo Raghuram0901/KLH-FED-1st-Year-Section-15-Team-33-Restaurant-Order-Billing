@@ -1,0 +1,17 @@
+
+import java.io.IOException;
+
+public class RestaurantApp extends Restaurant {
+
+    public static void main(String[] args) {
+
+        RestaurantApp app = new RestaurantApp();
+
+        try {
+            app.loadMenu();
+            app.displayMenu();
+        } catch (IOException e) {
+            System.out.println("Error reading menu.txt.");
+        }
+    }
+}
