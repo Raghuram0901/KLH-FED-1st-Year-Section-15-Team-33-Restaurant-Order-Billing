@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+
+
+public class Student {
+
+   public static void main(string[] args) { 
+
+      Scannner sc = new Scanner(System.in);
+
+
+      System.out.print("Enter Name: ");
+
+      
+      String name = sc.nextline();
+
+
+      System.out.print("Enter Age: ");
+
+
+      int age =sc.nextInt();
+
+
+      System.out.println("Name: "+name);
+
+
+        System.out.println("Age: "+age);
+
+
+      }
+
+
+
+ }
+    
